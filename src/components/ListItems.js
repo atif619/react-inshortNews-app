@@ -12,7 +12,7 @@ const ListItems = ({ setCatagory, menu, setMenu }) => {
                 <li key={cVal} onClick={() => setMenu(false)}>
                   <a onClick={() => setCatagory(cVal)}>
                     {cVal}
-                  </a>
+                  </a> 
                 </li>
               );
             })}

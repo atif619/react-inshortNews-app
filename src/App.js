@@ -17,7 +17,7 @@ function App() {
     let res = await fetch(`https://newsapi.org/v2/top-headlines?country=in&category=${category}&pageSize=${loadmore}&apiKey=${API_KEY}`)
 
     let data = await res.json();
-    setNewsData(data.articles)
+    setNewsData(data.articles) 
     setTotalNewsResult(data.totalResults)
     // console.log(totalNewsResult);
   }

@@ -13,7 +13,8 @@ const Navbar = ({ setMenu,menu }) => {
                 <img src={newsLogo} alt='logo' />
             </nav>
         </>
-    )
+    ) 
 }
 
 export default Navbar
+ 

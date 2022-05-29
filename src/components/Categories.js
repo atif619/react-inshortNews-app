@@ -5,7 +5,7 @@ const Catagories = [
     'Health',
     'Science',
     'Sports',
-    'Entertainment'
+    'Entertainment' 
 ]
 
 export default Catagories;
