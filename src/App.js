@@ -15,21 +15,13 @@ function App() {
 
   const API_KEY = '18c0b0149a4d440b8da40ac9719a177a';
 
-  // const getNews = async () => {
-  //   let res = await fetch(`https://newsapi.org/v2/top-headlines?country=in&category=${category}&pageSize=${loadmore}&apiKey=${API_KEY}`)
 
-  //   let data = await res.json();
-  //   setNewsData(data.articles)
-  //   setTotalNewsResult(data.totalResults)
-  //   // console.log(totalNewsResult);
-  // }
-
+  
   const getNews = async () => {
     try {
-      const proxyUrl = "https://cors-anywhere.herokuapp.com/";
 
       const news = await axios.get(
-        `${proxyUrl}https://newsapi.org/v2/top-headlines?country=in&category=${category}&pageSize=${loadmore}&apiKey=${API_KEY}`
+        `http://newsapi.org/v2/top-headlines?country=in&category=${category}&pageSize=${loadmore}&apiKey=${API_KEY}`
       );
       // console.log(news);
       setNewsData(news.data.articles);
