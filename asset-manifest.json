@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-inshortNews-app/static/css/main.75ae8ff0.css",
+    "main.js": "/react-inshortNews-app/static/js/main.51e2920c.js",
+    "index.html": "/react-inshortNews-app/index.html",
+    "main.75ae8ff0.css.map": "/react-inshortNews-app/static/css/main.75ae8ff0.css.map",
+    "main.51e2920c.js.map": "/react-inshortNews-app/static/js/main.51e2920c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75ae8ff0.css",
+    "static/js/main.51e2920c.js"
+  ]
+}
